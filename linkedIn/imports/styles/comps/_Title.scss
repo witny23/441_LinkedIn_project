@@ -1,0 +1,19 @@
+#In {
+    background-color:$text;
+    color:$background;
+  
+  }
+  
+
+#titleHeader {
+    background-color:$foreground;
+    height:5.5rem;
+    border-bottom: 0.5px solid $text;
+    padding-top:0.5rem;
+}
+
+.headerText {
+    font-size:4rem;
+    text-align:left;
+    margin-left:5%;
+}

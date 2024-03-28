@@ -1,0 +1,90 @@
+.reply_card {
+  display:flex;
+    
+    border-bottom:0.5px solid $text;
+
+}
+
+.reply_input_box {
+
+    background-color:#38434f;
+    color:$text;
+    height:1.5rem;
+    width:98%;
+    font-size:1.25rem;
+    padding-left:1rem;
+    margin-left:-0.25rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    border: 1px solid $text;
+    border-radius: 1rem 1rem 0rem 0rem;
+    
+    
+}
+
+::-webkit-input-placeholder {
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    color:#afafaf;
+    font-size: 1.25rem;
+  }
+
+.reply_form {
+
+    margin-top:2rem;
+    
+}
+
+.reply_add_button {
+ 
+    background-color:#7cbbfa;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    border:0px;
+    width:100%;
+    cursor:pointer;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size:1rem;
+}
+
+.reply_add_button:hover {
+    background-color:#428bd4;
+    transition:0.5s;
+}
+
+.reply_content {
+    width:50%;
+    max-width:50%;
+    text-align:left;
+    margin-left:4%;
+    align-items:center;
+}
+
+.reply_content h3 a {
+    color:#428bd4;
+
+}
+
+.reply_votes {
+
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    float: right;
+   
+}
+
+.reply_vote_button {
+    border-radius:50%;
+    background-color:$foreground;
+    border:2px solid $foreground;
+    cursor:pointer;
+    height:3rem;
+
+
+  }

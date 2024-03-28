@@ -1,0 +1,41 @@
+
+$background: #000000;
+$foreground: #1d2226;
+$text: #dadbdc;
+$font:  "myriad-pro", sans-serif;
+$container_width: 50%;
+$min_width: 24rem;
+
+// html {
+//   font-size: 62.5%; // 62.5% of default vaule which is 16
+//                     // .625 * 16 = 10px which is our base font size
+//                     // basically saying that we want everything to be 10px
+//                     // when we use rem we are saying take the rem num and multiply by ten
+//                     // i.e., 1.2rem = 1.2*10 = 12px
+// }
+body {
+    padding: 10px;
+    font-family: sans-serif;
+    background-color:$background;
+    color: $text;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding:0;
+  }
+
+  .center {
+    margin: 0 auto;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+
+
+
+  
+@import './comps/_Title.scss';
+@import './comps/_Posts.scss';
+@import './comps/_Comments.scss'

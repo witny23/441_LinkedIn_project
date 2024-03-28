@@ -1,0 +1,103 @@
+.post_container {
+    background-color:$foreground;
+    width:$container_width;
+    min-width: $min_width;
+    border-radius:2rem;
+    border:1px solid $text;
+    margin-top:1rem;
+    padding-top:0rem;
+    overflow:hidden;
+    word-wrap:break-word
+}
+
+.post_content {
+    text-align:left;
+    margin-left:3%;
+    max-width:65%;
+    width:65%;
+    display:flex;
+}
+.post_content h1 {
+  width:100%;
+  position:relative;
+}
+
+.post_content h1 a {
+  color: #428bd4;
+}
+.content_add_button {
+    border-radius:2rem;
+    background-color:#7cbbfa;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    border:0px;
+    margin-top:1rem;
+    cursor:pointer;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size:1rem;
+    width:$container_width;
+    min-width: $min_width;
+}
+
+.content_add_button:hover {
+    background-color:#428bd4;
+    transition:0.5s;
+}
+
+.input_form {
+    margin-top:2rem;
+    // width:$container_width;
+    // min-width: $min_width;
+}
+
+.content_input_box {
+    background-color:$foreground;
+    color:$text;
+    height:4rem;
+    width:$container_width;
+    min-width: $min_width;
+    font-size:1.25rem;
+    padding-left:1rem;
+    padding-top:2rem;
+    border: 2px solid $text;
+    border-radius: 1rem;
+}
+
+::-webkit-input-placeholder {
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+
+    font-size: 1.25rem;
+  }
+
+  .post_votes {
+    display:flex;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    align-items:center;
+  }
+  
+  .vote_buttons {
+    display:flex;
+    align-items:center;
+    
+  }
+  
+  .vote_button {
+    border-radius:50%;
+    background-color:$foreground;
+    border:2px solid $foreground;
+    cursor:pointer;
+    height:5rem;
+
+  }
+
+  .flex {
+    display:flex;
+  }
